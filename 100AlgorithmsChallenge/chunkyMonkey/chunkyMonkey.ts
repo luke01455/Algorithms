@@ -1,6 +1,6 @@
 function chunkyMonkey(arr: any[], size: number): any[][] {
 
-    let bigArray = [];
+    const bigArray = [];
  
     while (arr.length > 0) {
         bigArray.push(arr.splice(0, size));
