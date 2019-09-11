@@ -1,5 +1,6 @@
 function celsiusToFahrenheit(celsius: number): number {
-
+    const percent = (9/5)
+    return (celsius * percent) + 32;
 }
 
 console.log(celsiusToFahrenheit(-30));
